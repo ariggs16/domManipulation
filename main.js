@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	$("#section").on('click', function(){
-		$(this).addClass('move')
+		$(this).addClass('open')
 	})
 })
 
-var sub = document.onclick("")
