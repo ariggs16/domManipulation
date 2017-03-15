@@ -1,0 +1,20 @@
+html {
+	box-sizing:border;
+}
+*,:before *:after {
+	box-sizing:inherit;
+}
+button.class {
+	background-color:rgb(0, 198, 214);
+	color:white;
+	padding:20px;
+	width:100%;
+	text-align:left;
+	border:none;
+	outline:none;
+	transition:4s;
+}
+div.section {
+	padding: 0 20px;
+	background-color:white;
+}
