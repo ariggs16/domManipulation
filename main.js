@@ -1,6 +1,11 @@
 $(document).ready(function(){
-	$("#section").on('click', function(){
-		$(this).addClass('open')
-	})
+   $("a").on('click', function(){
+   	if($(this).find("+ section").hasClass('open')) {
+   		$("section").removeClass('open')
+   	} else {
+   		$("section").removeClass('open')
+   		$(this).find(" + section").addClass('open')
+   	}
+  })
 })
 

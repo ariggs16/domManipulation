@@ -6,19 +6,26 @@
 	<link rel=stylesheet href=style.css />
 </head>
 <body>
-	<main id="accordion" >	
-	<a href="#section1" class="header">Section One</a>
-	<div class="content">
-		<p>"Today you are You, that is truer than true.There is no one alive who is Youer than You." - Dr.Seuss</p>
-	</div>
-	<a href="#section2" class="header">Section Two</a>
-	<div class="content">
-		<p>"The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr.Seuss</p>
-	</div>
-	<a href="#section3" class="header">Section Three</a>
-	<div class="content">
-		<p>"Oh the places you'll go, Today is your day! Your mountain is waiting, So ... get on your way! - Dr.Seuss</p>
-	</div>
+	<ul id="accordion" >
+		<li>	
+			<a href="#section1">Section One</a>
+			<section id="section1">
+				<p>"Today you are You, that is truer than true.There is no one alive who is Youer than You." - Dr.Seuss</p>
+			</section>
+		</li>
+		<li>
+			<a href="#section2">Section Two</a>
+			<section id="section2">
+				<p>"The more that you read, the more things you will know. The more that you learn, the more places you'll go." - Dr.Seuss</p>
+			</section>
+		</li>
+		<li>
+			<a href="#section3" class="header">Section Three</a>
+			<section id="section3">
+				<p>"Oh the places you'll go, Today is your day! Your mountain is waiting, So ... get on your way! - Dr.Seuss</p>
+			</section>
+		</li>
+	</ul>
 	<script
   src="http://code.jquery.com/jquery-3.1.1.min.js"
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

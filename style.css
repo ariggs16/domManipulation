@@ -5,21 +5,35 @@ html {
 	box-sizing:inherit;
 }
 #accordion {
-	width:550px;
-	padding:0;
-	margin:0;
-	text-decoration:none;
-}
-.header {
-	display:block;
-	padding:20px;
-	background:rgb(0,198,214);
-	color:white;
-	text-decoration:none;
+	width:420px;
+	border:1px solid;
+	list-style:none;
+	margin:30px auto;
+	border:1px solid rgb(0, 171, 189);
+	padding-left:0px;
 	font-size:20px;
 }
-.content {
-	padding:0;
+li a {
+	display:block;
+	height:40px;
+	line-height:40px;
+	color:white;
+	background:rgb(0,198,214);
+	text-decoration:none;
+	padding-left:20px;
+}
+li a:hover {
+	background:rgb(0,218,236);
+}
+section {
 	height:0;
-	overflow:hidden;
+	overflow:auto;
+	transition:0.5s height;
+}
+.open {
+	height:100px;
+}
+section p {
+	padding:20px;
+	font-size:18px;
 }
